@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+int nilai; 
+
+int faktorial=1;
+
+
+cout<< "NILAI FAKTORIAL"<<endl<<endl;
+
+cout<< "masukkan nilai      : "<<endl;
+cin>> nilai;
+
+cout<< "faktorial : ";
+
+while (nilai>0)
+{
+cout<<nilai;
+if (nilai != 1) {
+cout<< "x";}
+faktorial = faktorial * nilai;
+nilai--;
+}
+cout<< " = "<<faktorial<<endl;
+
+return 0;
+}
