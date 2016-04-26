@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	int b;
+
+	for (int a=5; a>0; a--){
+		for (int b=a; b>0; b--){
+			cout<<b;
+		}
+		cout<< endl;
+}
+	system("pause");
+}
